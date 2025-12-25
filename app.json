@@ -1,0 +1,26 @@
+{
+  "id": "mazegame",
+  "name": "Maze Game",
+  "description": "An interactive maze game with enemies, powerups, and multiple themes. Navigate through procedurally generated mazes.",
+  "version": "1.0.0",
+  "type": "web",
+  "icon": "🎮",
+  "category": "gaming",
+  
+  "web": {
+    "enabled": true,
+    "entry": "app.py",
+    "port": 5107,
+    "framework": "flask",
+    "requirements": "requirements.txt",
+    "venv": "venv",
+    "command": ["python3", "app.py"]
+  },
+  
+  "desktop": {
+    "enabled": false
+  },
+  
+  "tags": ["maze", "game", "gaming", "pygame", "interactive"]
+}
+
