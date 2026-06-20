@@ -211,3 +211,4 @@ __marimo__/
 .claude_agent_farm_state.json
 .heartbeats/
 .cursor/
+.DS_Store
